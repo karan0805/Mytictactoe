@@ -22,7 +22,7 @@ opacity: 60%;
 }
 
 .board {
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   display: grid;
   justify-content: center;
@@ -154,4 +154,37 @@ opacity: 60%;
 
 .winning-message.show {
   display: flex;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #232327;
+    color: #eee;
+    left: 0;
+    bottom: 0;
+}
+
+.copyright p{
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.madewithlove{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.fa-heart{
+    color: red;
+}
+
+a, a:hover {
+    color: #149dcc;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
 }
